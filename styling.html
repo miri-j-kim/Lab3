@@ -16,7 +16,7 @@ Description : Learning CSS.
             /*Modify #margin-demo to have a margin of 30px and a solid black border of 2px. Also, the borders must fit the content.*/
             margin: 30px;
             border: 2px solid black;
-            width: fit-content;
+            display: inline;
         }
 
         .padding-demo {
@@ -72,7 +72,7 @@ Description : Learning CSS.
         .image-demo {
             /* Modify the .image-demo class to adjust the image's width to 50% of the screen. */
             width: 50%;
-            border: 2px dotted green;
+            border: 2px solid blue;
         }
 
         .hover-demo:hover {
@@ -103,7 +103,7 @@ Description : Learning CSS.
 
     <h2>CSS Image Styling with Inline CSS</h2>
     <!-- Add a dotted green border of 3px inline. Which style will win the competition? -->
-    <img class="image-demo" style="" src="images/example.svg" alt="Demo Image">
+    <img class="image-demo" style="border: 3px dotted green" src="images/example.svg" alt="Demo Image">
 
     <h2>CSS Hover Effects</h2>
     <div class="hover-demo"><span>Hover over me! My color will change to blue!</span></div>
